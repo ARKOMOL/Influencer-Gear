@@ -71,10 +71,10 @@ header{
 
 /* logo part start  */
 
-.com-logo{
+.com-logo {
     margin: 50px 0;
-    border: 3px solid green;
-
+    border: 3px solid #dbe1db;
+    border-radius: 26px;
 }
 .com-logo img{
     padding: 14px;
