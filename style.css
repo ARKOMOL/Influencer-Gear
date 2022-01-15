@@ -187,3 +187,90 @@ footer h4{
   
  }
 /* footer part end */
+
+
+
+/* media query  */
+
+@media only screen and (max-width: 600px) {
+
+    .container{
+        width: 500px;
+        margin: auto;
+    }
+    header h2 {
+        font-size: 37px;
+        text-align: center;
+        width: 100%;
+    }
+    .banner {
+        display: flex;
+        width: 100%;
+        /* flex-wrap: nowrap; */
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        align-content: center;
+    }
+    .banner-cont {
+        width: 100%;
+        padding-right: 20px;
+        margin: 10px 0;
+    }
+
+    .banner-cont h1 {
+        margin-right: -10px;
+        font-size: 50px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .banner-img{
+        width: 100%;
+    }
+    h4 {
+        font-size: 24px;
+        text-align: center;
+    }
+    .banner-btn {
+        text-align: center;
+    }
+
+
+
+    .com-logo{
+        display: none;
+    }
+  
+.pop-head{
+    text-align:center;
+}
+.Popular-collection {
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 19px;
+    margin: 55px 0;
+    align-items: start;
+    justify-content: start;
+    justify-items: center;
+    align-content: center;
+}
+    .collection-part{
+        text-align: center;
+    }
+
+
+.bonus-head h1{
+    text-align:center;
+}
+.bonus-cont{
+    align-items:center;
+}
+
+
+
+
+
+
+}
