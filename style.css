@@ -241,6 +241,9 @@ footer h4{
         align-items: flex-start;
         align-content: center;
     }
+    .banner-img:hover {
+        transform:scale(1.15)
+    }
     .banner-cont {
         width: 100%;
         padding-right: 20px;
@@ -288,7 +291,9 @@ footer h4{
     .collection-part{
         text-align: center;
     }
-
+    .see-more h3 {
+        margin-left: 300px;
+    }
 
 .bonus-head h1{
     text-align:center;
@@ -307,6 +312,7 @@ footer {
 
 }
 
+/* tablet  */
 
 @media only screen and (min-width:600px) and (max-width: 870px){
     .container{
@@ -326,6 +332,12 @@ footer {
     .Popular-collection{
         grid-template-columns: repeat(2,1fr);
     }
+    .collection-img img {
+        width: 100%;
+    }
+    .see-more h3 {
+        margin-left: 639px;
+    }
     .end1{
         display: none;
     }
@@ -333,6 +345,9 @@ footer {
         display: flex;
         flex-direction: column;
         width: 740px;
+    }
+    footer{
+        width: 793px;
     }
     .com-logo{
         display: none;
