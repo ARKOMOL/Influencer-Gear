@@ -267,10 +267,45 @@ footer h4{
 .bonus-cont{
     align-items:center;
 }
+footer {
+    
+    width: 500px;
+}
 
 
 
 
 
+}
 
+
+@media only screen and (min-width:600px) and (max-width: 870px){
+    .container{
+        max-width: 800px;
+        margin: auto;
+    }
+    header {
+        font-size: 35px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 700;
+        text-align: center;
+    }
+    .banner-img img {
+        
+         margin-left: 0px; 
+    }
+    .Popular-collection{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .end1{
+        display: none;
+    }
+    .bonus-cont {
+        display: flex;
+        flex-direction: column;
+        width: 740px;
+    }
+    .com-logo{
+        display: none;
+    }
 }
